@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="fahhemni-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#6D28D9"/>
+    </linearGradient>
+    <linearGradient id="glow-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#4C1D95" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Background squircle -->
+  <rect width="512" height="512" rx="128" fill="#0B0F19"/>
+  <rect x="16" y="16" width="480" height="480" rx="116" stroke="#1E293B" stroke-width="4"/>
+  <circle cx="256" cy="256" r="200" fill="url(#glow-grad)"/>
+
+  <!-- Logo Icon: Stylized Open Book + Lightbulb/Idea Spark -->
+  <g transform="translate(106, 126)">
+    <!-- Book pages -->
+    <path d="M150 190 C90 170 30 180 10 200 L10 70 C30 50 90 40 150 60 Z" fill="url(#fahhemni-grad)" opacity="0.9"/>
+    <path d="M150 190 C210 170 270 180 290 200 L290 70 C270 50 210 40 150 60 Z" fill="url(#fahhemni-grad)"/>
+    <path d="M150 60 L150 210" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Central Insight Spark (Knowledge Star / Light) -->
+    <circle cx="150" cy="50" r="16" fill="#F59E0B"/>
+    <path d="M150 15 L150 30 M150 70 L150 85 M115 50 L130 50 M170 50 L185 50" stroke="#FDE68A" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <!-- Dot of Arabic 'Fah' (فـ) -->
+  <circle cx="360" cy="150" r="14" fill="#C4B5FD"/>
+</svg>
